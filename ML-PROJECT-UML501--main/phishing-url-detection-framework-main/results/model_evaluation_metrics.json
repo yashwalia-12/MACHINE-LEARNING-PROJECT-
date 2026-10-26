@@ -1,0 +1,78 @@
+{
+    "random_forest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+    },
+    "logistic_regression": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+    },
+    "top_important_features": [
+        {
+            "feature": "uses_https",
+            "importance": 0.1564
+        },
+        {
+            "feature": "domain_length",
+            "importance": 0.1243
+        },
+        {
+            "feature": "num_hyphens",
+            "importance": 0.1078
+        },
+        {
+            "feature": "is_suspicious_tld",
+            "importance": 0.1009
+        },
+        {
+            "feature": "entropy_domain",
+            "importance": 0.0934
+        },
+        {
+            "feature": "hostname_length",
+            "importance": 0.0689
+        },
+        {
+            "feature": "entropy_hostname",
+            "importance": 0.0578
+        },
+        {
+            "feature": "num_slash",
+            "importance": 0.0458
+        },
+        {
+            "feature": "url_length",
+            "importance": 0.0259
+        },
+        {
+            "feature": "path_length",
+            "importance": 0.0258
+        },
+        {
+            "feature": "num_letters",
+            "importance": 0.0203
+        },
+        {
+            "feature": "contains_login",
+            "importance": 0.0167
+        },
+        {
+            "feature": "first_dir_length",
+            "importance": 0.0154
+        },
+        {
+            "feature": "num_dots",
+            "importance": 0.0135
+        },
+        {
+            "feature": "num_special_chars",
+            "importance": 0.0125
+        }
+    ]
+}
